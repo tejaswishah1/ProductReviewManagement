@@ -13,7 +13,7 @@ namespace ProductReviewManagement
         static void Main(string[] args)
         {
 
-            ////Intro
+            ////Intro:
             Console.WriteLine("Welcome to Product Review Management \n");
 
             ////List to add 25 Products:
@@ -27,7 +27,7 @@ namespace ProductReviewManagement
                 new ProductReview(){ProducID=6,UserID=4,Rating=1,Review="Bad",isLike=true},
                 new ProductReview(){ProducID=8,UserID=1,Rating=1,Review="Good",isLike=false},
                 new ProductReview(){ProducID=8,UserID=5,Rating=9,Review="Nice",isLike=true},
-                new ProductReview(){ProducID=2,UserID=2,Rating=10,Review="Nice",isLike=true},
+                new ProductReview(){ProducID=2,UserID=2,Rating=11,Review="Nice",isLike=true},////Rating 11
                 new ProductReview(){ProducID=10,UserID=4,Rating=8,Review="Nice",isLike=true},
                 new ProductReview(){ProducID=11,UserID=5,Rating=3,Review="Nice",isLike=true},
                 new ProductReview(){ProducID=12,UserID=2,Rating=2,Review="Good",isLike=true},
@@ -38,13 +38,17 @@ namespace ProductReviewManagement
                 new ProductReview(){ProducID=15,UserID=1,Rating=1,Review="Bas",isLike=true},
                 new ProductReview(){ProducID=15,UserID=5,Rating=1,Review="Good",isLike=false},
                 new ProductReview(){ProducID=18,UserID=1,Rating=9,Review="Nice",isLike=true},
-                new ProductReview(){ProducID=19,UserID=2,Rating=10,Review="Nice",isLike=true},
+                new ProductReview(){ProducID=19,UserID=2,Rating=12,Review="Nice",isLike=true},////Rating 12
                 new ProductReview(){ProducID=20,UserID=3,Rating=8,Review="Nice",isLike=true},
                 new ProductReview(){ProducID=21,UserID=2,Rating=3,Review="Nice",isLike=true},
-                new ProductReview(){ProducID=22,UserID=5,Rating=10,Review="Nice",isLike=true},
+                new ProductReview(){ProducID=22,UserID=5,Rating=10,Review="Nice",isLike=true},////Rating 10
                 new ProductReview(){ProducID=22,UserID=4,Rating=8,Review="Good",isLike=true},
                 new ProductReview(){ProducID=25,UserID=3,Rating=3,Review="Bad",isLike=true}
             };
+
+            ////Calling Manager class to retreive top 3 Data:
+            Manager manager = new Manager();
+            manager.TopRecords(productReviewList);
         }
     }
 }
