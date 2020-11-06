@@ -19,7 +19,7 @@ namespace ProductReviewManagement
             ////List to add 25 Products:
             List<ProductReview> productReviewList = new List<ProductReview>()
             {
-                new ProductReview(){ProducID=1,UserID=1,Rating=2,Review="Good",isLike=true},
+                new ProductReview(){ProducID=1,UserID=1,Rating=5,Review="Good",isLike=true},
                 new ProductReview(){ProducID=2,UserID=2,Rating=4,Review="Good",isLike=true},
                 new ProductReview(){ProducID=3,UserID=1,Rating=5,Review="Good",isLike=true},
                 new ProductReview(){ProducID=4,UserID=3,Rating=6,Review="Good",isLike=false},
@@ -48,7 +48,10 @@ namespace ProductReviewManagement
 
             ////Calling Manager class to retreive top 3 Data:
             Manager manager = new Manager();
-            manager.TopRecords(productReviewList);
+            //manager.TopRecords(productReviewList);
+
+            ////Product ID: 1/4/9 And rating >3:
+            manager.SelectedRecords(productReviewList);
         }
     }
 }

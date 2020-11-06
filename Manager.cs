@@ -35,5 +35,33 @@ namespace ProductReviewManagement
                 Console.WriteLine(exception.Message); 
             }
         }
+
+        /// <summary>
+        /// UC3: Product ID=1/4/9, and rating greater than 3
+        /// </summary>
+        /// <param name="listProductReview"></param>
+        public void SelectedRecords(List<ProductReview> listProductReview)
+        {
+            try
+            {
+                var recordedData = from productReviews in listProductReview
+                                   where (productReviews.ProducID == 1 || productReviews.ProducID == 4 ||
+                                   productReviews.ProducID == 9)
+                                   && productReviews.Rating > 3
+                                   select productReviews;
+                Console.WriteLine("Rating greater than 3 with product ID of 1 or 4 or 9 :- \n");
+                ////Print required fields:
+                foreach (var list in recordedData)
+                {
+                    Console.WriteLine("ProductID:- " + list.ProducID + " " + "UserID:- " + list.UserID
+                        + " " + "Rating:- " + list.Rating + " " + "Review:- " + list.Review + " " + "isLike:- " + list.isLike);
+                }
+            }
+            ////Catch exception if any
+            catch(Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+            }
+        }
     }
 }
