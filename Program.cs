@@ -54,7 +54,10 @@ namespace ProductReviewManagement
             ////manager.SelectedRecords(productReviewList);
 
             ////Retrieve Count of ProductID:
-            manager.RetrieveCount(productReviewList);
+            //manager.RetrieveCount(productReviewList);
+
+            ////Retrieve Product ID and review only
+            manager.RetrieveProductIDandReview(productReviewList);
         }
     }
 }
