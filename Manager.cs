@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace ProductReviewManagement
 {
@@ -30,9 +31,9 @@ namespace ProductReviewManagement
                 }
             }
             ////Catch exception if any
-            catch(Exception exception)
+            catch (Exception exception)
             {
-                Console.WriteLine(exception.Message); 
+                Console.WriteLine(exception.Message);
             }
         }
 
@@ -58,10 +59,39 @@ namespace ProductReviewManagement
                 }
             }
             ////Catch exception if any
-            catch(Exception exception)
+            catch (Exception exception)
             {
                 Console.WriteLine(exception.Message);
             }
         }
+
+        /// <summary>
+        /// UC4: Retrieve Count
+        /// </summary>
+        /// <param name="listProductReview"></param>
+        public void RetrieveCount(List<ProductReview> listProductReview)
+        {
+            try
+            {
+                var recordedData = from productReviews in listProductReview
+                                   group productReviews by productReviews.ProducID into prodGroup
+                                   select new 
+                                   {
+                                       ProducID = prodGroup.Key,
+                                       Count = prodGroup.Count(),
+
+                                   };
+                foreach (var list in recordedData)
+                {
+                    Console.WriteLine("ProductID:- " + list.ProducID + " " + "Count: " + list.Count);
+                }
+            }
+            catch(Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+            }
+
+        }
+
     }
 }

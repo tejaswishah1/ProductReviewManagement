@@ -34,12 +34,12 @@ namespace ProductReviewManagement
                 new ProductReview(){ProducID=12,UserID=4,Rating=4,Review="Good",isLike=true},
                 new ProductReview(){ProducID=13,UserID=6,Rating=5,Review="Good",isLike=true},
                 new ProductReview(){ProducID=14,UserID=3,Rating=6,Review="Good",isLike=false},
-                new ProductReview(){ProducID=15,UserID=4,Rating=2,Review="Nice",isLike=true},
+                new ProductReview(){ProducID=14,UserID=4,Rating=2,Review="Nice",isLike=true},
                 new ProductReview(){ProducID=15,UserID=1,Rating=1,Review="Bas",isLike=true},
                 new ProductReview(){ProducID=15,UserID=5,Rating=1,Review="Good",isLike=false},
                 new ProductReview(){ProducID=18,UserID=1,Rating=9,Review="Nice",isLike=true},
                 new ProductReview(){ProducID=19,UserID=2,Rating=12,Review="Nice",isLike=true},////Rating 12
-                new ProductReview(){ProducID=20,UserID=3,Rating=8,Review="Nice",isLike=true},
+                new ProductReview(){ProducID=22,UserID=3,Rating=8,Review="Nice",isLike=true},
                 new ProductReview(){ProducID=21,UserID=2,Rating=3,Review="Nice",isLike=true},
                 new ProductReview(){ProducID=22,UserID=5,Rating=10,Review="Nice",isLike=true},////Rating 10
                 new ProductReview(){ProducID=22,UserID=4,Rating=8,Review="Good",isLike=true},
@@ -51,7 +51,10 @@ namespace ProductReviewManagement
             //manager.TopRecords(productReviewList);
 
             ////Product ID: 1/4/9 And rating >3:
-            manager.SelectedRecords(productReviewList);
+            ////manager.SelectedRecords(productReviewList);
+
+            ////Retrieve Count of ProductID:
+            manager.RetrieveCount(productReviewList);
         }
     }
 }
