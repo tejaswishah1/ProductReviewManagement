@@ -1,0 +1,3585 @@
+<stylecopresultscache>
+  <version>12</version>
+  <sourcecode name="ProductReview.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020-10-27 15:55:23.894</styleCop>
+      <settingsFile>2020-10-27 15:55:23.805</settingsFile>
+      <sourceFile>2020-11-06 13:57:23.699</sourceFile>
+      <parser>2020-10-27 15:55:23.894</parser>
+      <StyleCop.CSharp.DocumentationRules>2020-10-27 15:55:23.894</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1050410716</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020-10-27 15:55:23.894</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020-10-27 15:55:23.894</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020-10-27 15:55:23.894</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020-10-27 15:55:23.894</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020-10-27 15:55:23.894</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020-10-27 15:55:23.894</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>property names begin with an upper-case letter: isLike.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020-10-27 15:55:23.894</styleCop>
+      <settingsFile>2020-10-27 15:55:23.805</settingsFile>
+      <sourceFile>2020-11-06 14:03:02.936</sourceFile>
+      <parser>2020-10-27 15:55:23.894</parser>
+      <StyleCop.CSharp.DocumentationRules>2020-10-27 15:55:23.894</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1050410716</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020-10-27 15:55:23.894</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020-10-27 15:55:23.894</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020-10-27 15:55:23.894</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020-10-27 15:55:23.894</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020-10-27 15:55:23.894</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020-10-27 15:55:23.894</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The method must have an access modifier.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>15</line>
+        <index>416</index>
+        <endIndex>416</endIndex>
+        <startLine>15</startLine>
+        <startColumn>36</startColumn>
+        <endLine>15</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>15</line>
+        <index>416</index>
+        <endIndex>416</endIndex>
+        <startLine>15</startLine>
+        <startColumn>36</startColumn>
+        <endLine>15</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>15</line>
+        <index>425</index>
+        <endIndex>425</endIndex>
+        <startLine>15</startLine>
+        <startColumn>45</startColumn>
+        <endLine>15</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>15</line>
+        <index>427</index>
+        <endIndex>427</endIndex>
+        <startLine>15</startLine>
+        <startColumn>47</startColumn>
+        <endLine>15</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>15</line>
+        <index>434</index>
+        <endIndex>434</endIndex>
+        <startLine>15</startLine>
+        <startColumn>54</startColumn>
+        <endLine>15</endLine>
+        <endColumn>54</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>15</line>
+        <index>436</index>
+        <endIndex>436</endIndex>
+        <startLine>15</startLine>
+        <startColumn>56</startColumn>
+        <endLine>15</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>15</line>
+        <index>443</index>
+        <endIndex>443</endIndex>
+        <startLine>15</startLine>
+        <startColumn>63</startColumn>
+        <endLine>15</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>15</line>
+        <index>445</index>
+        <endIndex>445</endIndex>
+        <startLine>15</startLine>
+        <startColumn>65</startColumn>
+        <endLine>15</endLine>
+        <endColumn>65</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>15</line>
+        <index>452</index>
+        <endIndex>452</endIndex>
+        <startLine>15</startLine>
+        <startColumn>72</startColumn>
+        <endLine>15</endLine>
+        <endColumn>72</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>15</line>
+        <index>459</index>
+        <endIndex>459</endIndex>
+        <startLine>15</startLine>
+        <startColumn>79</startColumn>
+        <endLine>15</endLine>
+        <endColumn>79</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>15</line>
+        <index>466</index>
+        <endIndex>466</endIndex>
+        <startLine>15</startLine>
+        <startColumn>86</startColumn>
+        <endLine>15</endLine>
+        <endColumn>86</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>15</line>
+        <index>471</index>
+        <endIndex>471</endIndex>
+        <startLine>15</startLine>
+        <startColumn>91</startColumn>
+        <endLine>15</endLine>
+        <endColumn>91</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>16</line>
+        <index>510</index>
+        <endIndex>510</endIndex>
+        <startLine>16</startLine>
+        <startColumn>36</startColumn>
+        <endLine>16</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>16</line>
+        <index>510</index>
+        <endIndex>510</endIndex>
+        <startLine>16</startLine>
+        <startColumn>36</startColumn>
+        <endLine>16</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>16</line>
+        <index>519</index>
+        <endIndex>519</endIndex>
+        <startLine>16</startLine>
+        <startColumn>45</startColumn>
+        <endLine>16</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>16</line>
+        <index>521</index>
+        <endIndex>521</endIndex>
+        <startLine>16</startLine>
+        <startColumn>47</startColumn>
+        <endLine>16</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>16</line>
+        <index>528</index>
+        <endIndex>528</endIndex>
+        <startLine>16</startLine>
+        <startColumn>54</startColumn>
+        <endLine>16</endLine>
+        <endColumn>54</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>16</line>
+        <index>530</index>
+        <endIndex>530</endIndex>
+        <startLine>16</startLine>
+        <startColumn>56</startColumn>
+        <endLine>16</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>16</line>
+        <index>537</index>
+        <endIndex>537</endIndex>
+        <startLine>16</startLine>
+        <startColumn>63</startColumn>
+        <endLine>16</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>16</line>
+        <index>539</index>
+        <endIndex>539</endIndex>
+        <startLine>16</startLine>
+        <startColumn>65</startColumn>
+        <endLine>16</endLine>
+        <endColumn>65</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>16</line>
+        <index>546</index>
+        <endIndex>546</endIndex>
+        <startLine>16</startLine>
+        <startColumn>72</startColumn>
+        <endLine>16</endLine>
+        <endColumn>72</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>16</line>
+        <index>553</index>
+        <endIndex>553</endIndex>
+        <startLine>16</startLine>
+        <startColumn>79</startColumn>
+        <endLine>16</endLine>
+        <endColumn>79</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>16</line>
+        <index>560</index>
+        <endIndex>560</endIndex>
+        <startLine>16</startLine>
+        <startColumn>86</startColumn>
+        <endLine>16</endLine>
+        <endColumn>86</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>16</line>
+        <index>565</index>
+        <endIndex>565</endIndex>
+        <startLine>16</startLine>
+        <startColumn>91</startColumn>
+        <endLine>16</endLine>
+        <endColumn>91</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>17</line>
+        <index>604</index>
+        <endIndex>604</endIndex>
+        <startLine>17</startLine>
+        <startColumn>36</startColumn>
+        <endLine>17</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>17</line>
+        <index>604</index>
+        <endIndex>604</endIndex>
+        <startLine>17</startLine>
+        <startColumn>36</startColumn>
+        <endLine>17</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>17</line>
+        <index>613</index>
+        <endIndex>613</endIndex>
+        <startLine>17</startLine>
+        <startColumn>45</startColumn>
+        <endLine>17</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>17</line>
+        <index>615</index>
+        <endIndex>615</endIndex>
+        <startLine>17</startLine>
+        <startColumn>47</startColumn>
+        <endLine>17</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>17</line>
+        <index>622</index>
+        <endIndex>622</endIndex>
+        <startLine>17</startLine>
+        <startColumn>54</startColumn>
+        <endLine>17</endLine>
+        <endColumn>54</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>17</line>
+        <index>624</index>
+        <endIndex>624</endIndex>
+        <startLine>17</startLine>
+        <startColumn>56</startColumn>
+        <endLine>17</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>17</line>
+        <index>631</index>
+        <endIndex>631</endIndex>
+        <startLine>17</startLine>
+        <startColumn>63</startColumn>
+        <endLine>17</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>17</line>
+        <index>633</index>
+        <endIndex>633</endIndex>
+        <startLine>17</startLine>
+        <startColumn>65</startColumn>
+        <endLine>17</endLine>
+        <endColumn>65</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>17</line>
+        <index>640</index>
+        <endIndex>640</endIndex>
+        <startLine>17</startLine>
+        <startColumn>72</startColumn>
+        <endLine>17</endLine>
+        <endColumn>72</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>17</line>
+        <index>647</index>
+        <endIndex>647</endIndex>
+        <startLine>17</startLine>
+        <startColumn>79</startColumn>
+        <endLine>17</endLine>
+        <endColumn>79</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>17</line>
+        <index>654</index>
+        <endIndex>654</endIndex>
+        <startLine>17</startLine>
+        <startColumn>86</startColumn>
+        <endLine>17</endLine>
+        <endColumn>86</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>17</line>
+        <index>659</index>
+        <endIndex>659</endIndex>
+        <startLine>17</startLine>
+        <startColumn>91</startColumn>
+        <endLine>17</endLine>
+        <endColumn>91</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>18</line>
+        <index>698</index>
+        <endIndex>698</endIndex>
+        <startLine>18</startLine>
+        <startColumn>36</startColumn>
+        <endLine>18</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>18</line>
+        <index>698</index>
+        <endIndex>698</endIndex>
+        <startLine>18</startLine>
+        <startColumn>36</startColumn>
+        <endLine>18</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>18</line>
+        <index>707</index>
+        <endIndex>707</endIndex>
+        <startLine>18</startLine>
+        <startColumn>45</startColumn>
+        <endLine>18</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>18</line>
+        <index>709</index>
+        <endIndex>709</endIndex>
+        <startLine>18</startLine>
+        <startColumn>47</startColumn>
+        <endLine>18</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>18</line>
+        <index>716</index>
+        <endIndex>716</endIndex>
+        <startLine>18</startLine>
+        <startColumn>54</startColumn>
+        <endLine>18</endLine>
+        <endColumn>54</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>18</line>
+        <index>718</index>
+        <endIndex>718</endIndex>
+        <startLine>18</startLine>
+        <startColumn>56</startColumn>
+        <endLine>18</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>18</line>
+        <index>725</index>
+        <endIndex>725</endIndex>
+        <startLine>18</startLine>
+        <startColumn>63</startColumn>
+        <endLine>18</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>18</line>
+        <index>727</index>
+        <endIndex>727</endIndex>
+        <startLine>18</startLine>
+        <startColumn>65</startColumn>
+        <endLine>18</endLine>
+        <endColumn>65</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>18</line>
+        <index>734</index>
+        <endIndex>734</endIndex>
+        <startLine>18</startLine>
+        <startColumn>72</startColumn>
+        <endLine>18</endLine>
+        <endColumn>72</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>18</line>
+        <index>741</index>
+        <endIndex>741</endIndex>
+        <startLine>18</startLine>
+        <startColumn>79</startColumn>
+        <endLine>18</endLine>
+        <endColumn>79</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>18</line>
+        <index>748</index>
+        <endIndex>748</endIndex>
+        <startLine>18</startLine>
+        <startColumn>86</startColumn>
+        <endLine>18</endLine>
+        <endColumn>86</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>18</line>
+        <index>754</index>
+        <endIndex>754</endIndex>
+        <startLine>18</startLine>
+        <startColumn>92</startColumn>
+        <endLine>18</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>19</line>
+        <index>793</index>
+        <endIndex>793</endIndex>
+        <startLine>19</startLine>
+        <startColumn>36</startColumn>
+        <endLine>19</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>19</line>
+        <index>793</index>
+        <endIndex>793</endIndex>
+        <startLine>19</startLine>
+        <startColumn>36</startColumn>
+        <endLine>19</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>19</line>
+        <index>802</index>
+        <endIndex>802</endIndex>
+        <startLine>19</startLine>
+        <startColumn>45</startColumn>
+        <endLine>19</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>19</line>
+        <index>804</index>
+        <endIndex>804</endIndex>
+        <startLine>19</startLine>
+        <startColumn>47</startColumn>
+        <endLine>19</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>19</line>
+        <index>811</index>
+        <endIndex>811</endIndex>
+        <startLine>19</startLine>
+        <startColumn>54</startColumn>
+        <endLine>19</endLine>
+        <endColumn>54</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>19</line>
+        <index>813</index>
+        <endIndex>813</endIndex>
+        <startLine>19</startLine>
+        <startColumn>56</startColumn>
+        <endLine>19</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>19</line>
+        <index>820</index>
+        <endIndex>820</endIndex>
+        <startLine>19</startLine>
+        <startColumn>63</startColumn>
+        <endLine>19</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>19</line>
+        <index>822</index>
+        <endIndex>822</endIndex>
+        <startLine>19</startLine>
+        <startColumn>65</startColumn>
+        <endLine>19</endLine>
+        <endColumn>65</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>19</line>
+        <index>829</index>
+        <endIndex>829</endIndex>
+        <startLine>19</startLine>
+        <startColumn>72</startColumn>
+        <endLine>19</endLine>
+        <endColumn>72</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>19</line>
+        <index>836</index>
+        <endIndex>836</endIndex>
+        <startLine>19</startLine>
+        <startColumn>79</startColumn>
+        <endLine>19</endLine>
+        <endColumn>79</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>19</line>
+        <index>843</index>
+        <endIndex>843</endIndex>
+        <startLine>19</startLine>
+        <startColumn>86</startColumn>
+        <endLine>19</endLine>
+        <endColumn>86</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>19</line>
+        <index>848</index>
+        <endIndex>848</endIndex>
+        <startLine>19</startLine>
+        <startColumn>91</startColumn>
+        <endLine>19</endLine>
+        <endColumn>91</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>20</line>
+        <index>887</index>
+        <endIndex>887</endIndex>
+        <startLine>20</startLine>
+        <startColumn>36</startColumn>
+        <endLine>20</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>20</line>
+        <index>887</index>
+        <endIndex>887</endIndex>
+        <startLine>20</startLine>
+        <startColumn>36</startColumn>
+        <endLine>20</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>20</line>
+        <index>896</index>
+        <endIndex>896</endIndex>
+        <startLine>20</startLine>
+        <startColumn>45</startColumn>
+        <endLine>20</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>20</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>20</line>
+        <index>898</index>
+        <endIndex>898</endIndex>
+        <startLine>20</startLine>
+        <startColumn>47</startColumn>
+        <endLine>20</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>20</line>
+        <index>905</index>
+        <endIndex>905</endIndex>
+        <startLine>20</startLine>
+        <startColumn>54</startColumn>
+        <endLine>20</endLine>
+        <endColumn>54</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>20</line>
+        <index>907</index>
+        <endIndex>907</endIndex>
+        <startLine>20</startLine>
+        <startColumn>56</startColumn>
+        <endLine>20</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>20</line>
+        <index>914</index>
+        <endIndex>914</endIndex>
+        <startLine>20</startLine>
+        <startColumn>63</startColumn>
+        <endLine>20</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>20</line>
+        <index>916</index>
+        <endIndex>916</endIndex>
+        <startLine>20</startLine>
+        <startColumn>65</startColumn>
+        <endLine>20</endLine>
+        <endColumn>65</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>20</line>
+        <index>923</index>
+        <endIndex>923</endIndex>
+        <startLine>20</startLine>
+        <startColumn>72</startColumn>
+        <endLine>20</endLine>
+        <endColumn>72</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>20</line>
+        <index>929</index>
+        <endIndex>929</endIndex>
+        <startLine>20</startLine>
+        <startColumn>78</startColumn>
+        <endLine>20</endLine>
+        <endColumn>78</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>20</line>
+        <index>936</index>
+        <endIndex>936</endIndex>
+        <startLine>20</startLine>
+        <startColumn>85</startColumn>
+        <endLine>20</endLine>
+        <endColumn>85</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>20</line>
+        <index>941</index>
+        <endIndex>941</endIndex>
+        <startLine>20</startLine>
+        <startColumn>90</startColumn>
+        <endLine>20</endLine>
+        <endColumn>90</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>21</line>
+        <index>980</index>
+        <endIndex>980</endIndex>
+        <startLine>21</startLine>
+        <startColumn>36</startColumn>
+        <endLine>21</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>21</line>
+        <index>980</index>
+        <endIndex>980</endIndex>
+        <startLine>21</startLine>
+        <startColumn>36</startColumn>
+        <endLine>21</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>21</line>
+        <index>989</index>
+        <endIndex>989</endIndex>
+        <startLine>21</startLine>
+        <startColumn>45</startColumn>
+        <endLine>21</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>21</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>21</line>
+        <index>991</index>
+        <endIndex>991</endIndex>
+        <startLine>21</startLine>
+        <startColumn>47</startColumn>
+        <endLine>21</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>21</line>
+        <index>998</index>
+        <endIndex>998</endIndex>
+        <startLine>21</startLine>
+        <startColumn>54</startColumn>
+        <endLine>21</endLine>
+        <endColumn>54</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>21</line>
+        <index>1000</index>
+        <endIndex>1000</endIndex>
+        <startLine>21</startLine>
+        <startColumn>56</startColumn>
+        <endLine>21</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>21</line>
+        <index>1007</index>
+        <endIndex>1007</endIndex>
+        <startLine>21</startLine>
+        <startColumn>63</startColumn>
+        <endLine>21</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>21</line>
+        <index>1009</index>
+        <endIndex>1009</endIndex>
+        <startLine>21</startLine>
+        <startColumn>65</startColumn>
+        <endLine>21</endLine>
+        <endColumn>65</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>21</line>
+        <index>1016</index>
+        <endIndex>1016</endIndex>
+        <startLine>21</startLine>
+        <startColumn>72</startColumn>
+        <endLine>21</endLine>
+        <endColumn>72</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>21</line>
+        <index>1023</index>
+        <endIndex>1023</endIndex>
+        <startLine>21</startLine>
+        <startColumn>79</startColumn>
+        <endLine>21</endLine>
+        <endColumn>79</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>21</line>
+        <index>1030</index>
+        <endIndex>1030</endIndex>
+        <startLine>21</startLine>
+        <startColumn>86</startColumn>
+        <endLine>21</endLine>
+        <endColumn>86</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>21</line>
+        <index>1036</index>
+        <endIndex>1036</endIndex>
+        <startLine>21</startLine>
+        <startColumn>92</startColumn>
+        <endLine>21</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>22</line>
+        <index>1075</index>
+        <endIndex>1075</endIndex>
+        <startLine>22</startLine>
+        <startColumn>36</startColumn>
+        <endLine>22</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>22</line>
+        <index>1075</index>
+        <endIndex>1075</endIndex>
+        <startLine>22</startLine>
+        <startColumn>36</startColumn>
+        <endLine>22</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>22</line>
+        <index>1084</index>
+        <endIndex>1084</endIndex>
+        <startLine>22</startLine>
+        <startColumn>45</startColumn>
+        <endLine>22</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>22</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>22</line>
+        <index>1086</index>
+        <endIndex>1086</endIndex>
+        <startLine>22</startLine>
+        <startColumn>47</startColumn>
+        <endLine>22</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>22</line>
+        <index>1093</index>
+        <endIndex>1093</endIndex>
+        <startLine>22</startLine>
+        <startColumn>54</startColumn>
+        <endLine>22</endLine>
+        <endColumn>54</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>22</line>
+        <index>1095</index>
+        <endIndex>1095</endIndex>
+        <startLine>22</startLine>
+        <startColumn>56</startColumn>
+        <endLine>22</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>22</line>
+        <index>1102</index>
+        <endIndex>1102</endIndex>
+        <startLine>22</startLine>
+        <startColumn>63</startColumn>
+        <endLine>22</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>22</line>
+        <index>1104</index>
+        <endIndex>1104</endIndex>
+        <startLine>22</startLine>
+        <startColumn>65</startColumn>
+        <endLine>22</endLine>
+        <endColumn>65</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>22</line>
+        <index>1111</index>
+        <endIndex>1111</endIndex>
+        <startLine>22</startLine>
+        <startColumn>72</startColumn>
+        <endLine>22</endLine>
+        <endColumn>72</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>22</line>
+        <index>1118</index>
+        <endIndex>1118</endIndex>
+        <startLine>22</startLine>
+        <startColumn>79</startColumn>
+        <endLine>22</endLine>
+        <endColumn>79</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>22</line>
+        <index>1125</index>
+        <endIndex>1125</endIndex>
+        <startLine>22</startLine>
+        <startColumn>86</startColumn>
+        <endLine>22</endLine>
+        <endColumn>86</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>22</line>
+        <index>1130</index>
+        <endIndex>1130</endIndex>
+        <startLine>22</startLine>
+        <startColumn>91</startColumn>
+        <endLine>22</endLine>
+        <endColumn>91</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>23</line>
+        <index>1169</index>
+        <endIndex>1169</endIndex>
+        <startLine>23</startLine>
+        <startColumn>36</startColumn>
+        <endLine>23</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>23</line>
+        <index>1169</index>
+        <endIndex>1169</endIndex>
+        <startLine>23</startLine>
+        <startColumn>36</startColumn>
+        <endLine>23</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>23</line>
+        <index>1178</index>
+        <endIndex>1178</endIndex>
+        <startLine>23</startLine>
+        <startColumn>45</startColumn>
+        <endLine>23</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>23</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>23</line>
+        <index>1180</index>
+        <endIndex>1180</endIndex>
+        <startLine>23</startLine>
+        <startColumn>47</startColumn>
+        <endLine>23</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>23</line>
+        <index>1187</index>
+        <endIndex>1187</endIndex>
+        <startLine>23</startLine>
+        <startColumn>54</startColumn>
+        <endLine>23</endLine>
+        <endColumn>54</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>23</line>
+        <index>1189</index>
+        <endIndex>1189</endIndex>
+        <startLine>23</startLine>
+        <startColumn>56</startColumn>
+        <endLine>23</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>23</line>
+        <index>1196</index>
+        <endIndex>1196</endIndex>
+        <startLine>23</startLine>
+        <startColumn>63</startColumn>
+        <endLine>23</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>23</line>
+        <index>1199</index>
+        <endIndex>1199</endIndex>
+        <startLine>23</startLine>
+        <startColumn>66</startColumn>
+        <endLine>23</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>23</line>
+        <index>1206</index>
+        <endIndex>1206</endIndex>
+        <startLine>23</startLine>
+        <startColumn>73</startColumn>
+        <endLine>23</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>23</line>
+        <index>1213</index>
+        <endIndex>1213</endIndex>
+        <startLine>23</startLine>
+        <startColumn>80</startColumn>
+        <endLine>23</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>23</line>
+        <index>1220</index>
+        <endIndex>1220</endIndex>
+        <startLine>23</startLine>
+        <startColumn>87</startColumn>
+        <endLine>23</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>23</line>
+        <index>1225</index>
+        <endIndex>1225</endIndex>
+        <startLine>23</startLine>
+        <startColumn>92</startColumn>
+        <endLine>23</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>24</line>
+        <index>1264</index>
+        <endIndex>1264</endIndex>
+        <startLine>24</startLine>
+        <startColumn>36</startColumn>
+        <endLine>24</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>24</line>
+        <index>1264</index>
+        <endIndex>1264</endIndex>
+        <startLine>24</startLine>
+        <startColumn>36</startColumn>
+        <endLine>24</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>24</line>
+        <index>1273</index>
+        <endIndex>1273</endIndex>
+        <startLine>24</startLine>
+        <startColumn>45</startColumn>
+        <endLine>24</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>24</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>24</line>
+        <index>1276</index>
+        <endIndex>1276</endIndex>
+        <startLine>24</startLine>
+        <startColumn>48</startColumn>
+        <endLine>24</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>24</line>
+        <index>1283</index>
+        <endIndex>1283</endIndex>
+        <startLine>24</startLine>
+        <startColumn>55</startColumn>
+        <endLine>24</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>24</line>
+        <index>1285</index>
+        <endIndex>1285</endIndex>
+        <startLine>24</startLine>
+        <startColumn>57</startColumn>
+        <endLine>24</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>24</line>
+        <index>1292</index>
+        <endIndex>1292</endIndex>
+        <startLine>24</startLine>
+        <startColumn>64</startColumn>
+        <endLine>24</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>24</line>
+        <index>1294</index>
+        <endIndex>1294</endIndex>
+        <startLine>24</startLine>
+        <startColumn>66</startColumn>
+        <endLine>24</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>24</line>
+        <index>1301</index>
+        <endIndex>1301</endIndex>
+        <startLine>24</startLine>
+        <startColumn>73</startColumn>
+        <endLine>24</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>24</line>
+        <index>1308</index>
+        <endIndex>1308</endIndex>
+        <startLine>24</startLine>
+        <startColumn>80</startColumn>
+        <endLine>24</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>24</line>
+        <index>1315</index>
+        <endIndex>1315</endIndex>
+        <startLine>24</startLine>
+        <startColumn>87</startColumn>
+        <endLine>24</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>24</line>
+        <index>1320</index>
+        <endIndex>1320</endIndex>
+        <startLine>24</startLine>
+        <startColumn>92</startColumn>
+        <endLine>24</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>25</line>
+        <index>1359</index>
+        <endIndex>1359</endIndex>
+        <startLine>25</startLine>
+        <startColumn>36</startColumn>
+        <endLine>25</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>25</line>
+        <index>1359</index>
+        <endIndex>1359</endIndex>
+        <startLine>25</startLine>
+        <startColumn>36</startColumn>
+        <endLine>25</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>25</line>
+        <index>1368</index>
+        <endIndex>1368</endIndex>
+        <startLine>25</startLine>
+        <startColumn>45</startColumn>
+        <endLine>25</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>25</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>25</line>
+        <index>1371</index>
+        <endIndex>1371</endIndex>
+        <startLine>25</startLine>
+        <startColumn>48</startColumn>
+        <endLine>25</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>25</line>
+        <index>1378</index>
+        <endIndex>1378</endIndex>
+        <startLine>25</startLine>
+        <startColumn>55</startColumn>
+        <endLine>25</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>25</line>
+        <index>1380</index>
+        <endIndex>1380</endIndex>
+        <startLine>25</startLine>
+        <startColumn>57</startColumn>
+        <endLine>25</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>25</line>
+        <index>1387</index>
+        <endIndex>1387</endIndex>
+        <startLine>25</startLine>
+        <startColumn>64</startColumn>
+        <endLine>25</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>25</line>
+        <index>1389</index>
+        <endIndex>1389</endIndex>
+        <startLine>25</startLine>
+        <startColumn>66</startColumn>
+        <endLine>25</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>25</line>
+        <index>1396</index>
+        <endIndex>1396</endIndex>
+        <startLine>25</startLine>
+        <startColumn>73</startColumn>
+        <endLine>25</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>25</line>
+        <index>1403</index>
+        <endIndex>1403</endIndex>
+        <startLine>25</startLine>
+        <startColumn>80</startColumn>
+        <endLine>25</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>25</line>
+        <index>1410</index>
+        <endIndex>1410</endIndex>
+        <startLine>25</startLine>
+        <startColumn>87</startColumn>
+        <endLine>25</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>25</line>
+        <index>1415</index>
+        <endIndex>1415</endIndex>
+        <startLine>25</startLine>
+        <startColumn>92</startColumn>
+        <endLine>25</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>26</line>
+        <index>1454</index>
+        <endIndex>1454</endIndex>
+        <startLine>26</startLine>
+        <startColumn>36</startColumn>
+        <endLine>26</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>26</line>
+        <index>1454</index>
+        <endIndex>1454</endIndex>
+        <startLine>26</startLine>
+        <startColumn>36</startColumn>
+        <endLine>26</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>26</line>
+        <index>1463</index>
+        <endIndex>1463</endIndex>
+        <startLine>26</startLine>
+        <startColumn>45</startColumn>
+        <endLine>26</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>26</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>26</line>
+        <index>1466</index>
+        <endIndex>1466</endIndex>
+        <startLine>26</startLine>
+        <startColumn>48</startColumn>
+        <endLine>26</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>26</line>
+        <index>1473</index>
+        <endIndex>1473</endIndex>
+        <startLine>26</startLine>
+        <startColumn>55</startColumn>
+        <endLine>26</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>26</line>
+        <index>1475</index>
+        <endIndex>1475</endIndex>
+        <startLine>26</startLine>
+        <startColumn>57</startColumn>
+        <endLine>26</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>26</line>
+        <index>1482</index>
+        <endIndex>1482</endIndex>
+        <startLine>26</startLine>
+        <startColumn>64</startColumn>
+        <endLine>26</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>26</line>
+        <index>1484</index>
+        <endIndex>1484</endIndex>
+        <startLine>26</startLine>
+        <startColumn>66</startColumn>
+        <endLine>26</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>26</line>
+        <index>1491</index>
+        <endIndex>1491</endIndex>
+        <startLine>26</startLine>
+        <startColumn>73</startColumn>
+        <endLine>26</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>26</line>
+        <index>1498</index>
+        <endIndex>1498</endIndex>
+        <startLine>26</startLine>
+        <startColumn>80</startColumn>
+        <endLine>26</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>26</line>
+        <index>1505</index>
+        <endIndex>1505</endIndex>
+        <startLine>26</startLine>
+        <startColumn>87</startColumn>
+        <endLine>26</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>26</line>
+        <index>1510</index>
+        <endIndex>1510</endIndex>
+        <startLine>26</startLine>
+        <startColumn>92</startColumn>
+        <endLine>26</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>27</line>
+        <index>1549</index>
+        <endIndex>1549</endIndex>
+        <startLine>27</startLine>
+        <startColumn>36</startColumn>
+        <endLine>27</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>27</line>
+        <index>1549</index>
+        <endIndex>1549</endIndex>
+        <startLine>27</startLine>
+        <startColumn>36</startColumn>
+        <endLine>27</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>27</line>
+        <index>1558</index>
+        <endIndex>1558</endIndex>
+        <startLine>27</startLine>
+        <startColumn>45</startColumn>
+        <endLine>27</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>27</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>27</line>
+        <index>1561</index>
+        <endIndex>1561</endIndex>
+        <startLine>27</startLine>
+        <startColumn>48</startColumn>
+        <endLine>27</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>27</line>
+        <index>1568</index>
+        <endIndex>1568</endIndex>
+        <startLine>27</startLine>
+        <startColumn>55</startColumn>
+        <endLine>27</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>27</line>
+        <index>1570</index>
+        <endIndex>1570</endIndex>
+        <startLine>27</startLine>
+        <startColumn>57</startColumn>
+        <endLine>27</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>27</line>
+        <index>1577</index>
+        <endIndex>1577</endIndex>
+        <startLine>27</startLine>
+        <startColumn>64</startColumn>
+        <endLine>27</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>27</line>
+        <index>1579</index>
+        <endIndex>1579</endIndex>
+        <startLine>27</startLine>
+        <startColumn>66</startColumn>
+        <endLine>27</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>27</line>
+        <index>1586</index>
+        <endIndex>1586</endIndex>
+        <startLine>27</startLine>
+        <startColumn>73</startColumn>
+        <endLine>27</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>27</line>
+        <index>1593</index>
+        <endIndex>1593</endIndex>
+        <startLine>27</startLine>
+        <startColumn>80</startColumn>
+        <endLine>27</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>27</line>
+        <index>1600</index>
+        <endIndex>1600</endIndex>
+        <startLine>27</startLine>
+        <startColumn>87</startColumn>
+        <endLine>27</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>27</line>
+        <index>1605</index>
+        <endIndex>1605</endIndex>
+        <startLine>27</startLine>
+        <startColumn>92</startColumn>
+        <endLine>27</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>28</line>
+        <index>1644</index>
+        <endIndex>1644</endIndex>
+        <startLine>28</startLine>
+        <startColumn>36</startColumn>
+        <endLine>28</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>28</line>
+        <index>1644</index>
+        <endIndex>1644</endIndex>
+        <startLine>28</startLine>
+        <startColumn>36</startColumn>
+        <endLine>28</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>28</line>
+        <index>1653</index>
+        <endIndex>1653</endIndex>
+        <startLine>28</startLine>
+        <startColumn>45</startColumn>
+        <endLine>28</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>28</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>28</line>
+        <index>1656</index>
+        <endIndex>1656</endIndex>
+        <startLine>28</startLine>
+        <startColumn>48</startColumn>
+        <endLine>28</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>28</line>
+        <index>1663</index>
+        <endIndex>1663</endIndex>
+        <startLine>28</startLine>
+        <startColumn>55</startColumn>
+        <endLine>28</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>28</line>
+        <index>1665</index>
+        <endIndex>1665</endIndex>
+        <startLine>28</startLine>
+        <startColumn>57</startColumn>
+        <endLine>28</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>28</line>
+        <index>1672</index>
+        <endIndex>1672</endIndex>
+        <startLine>28</startLine>
+        <startColumn>64</startColumn>
+        <endLine>28</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>28</line>
+        <index>1674</index>
+        <endIndex>1674</endIndex>
+        <startLine>28</startLine>
+        <startColumn>66</startColumn>
+        <endLine>28</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>28</line>
+        <index>1681</index>
+        <endIndex>1681</endIndex>
+        <startLine>28</startLine>
+        <startColumn>73</startColumn>
+        <endLine>28</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>28</line>
+        <index>1688</index>
+        <endIndex>1688</endIndex>
+        <startLine>28</startLine>
+        <startColumn>80</startColumn>
+        <endLine>28</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>28</line>
+        <index>1695</index>
+        <endIndex>1695</endIndex>
+        <startLine>28</startLine>
+        <startColumn>87</startColumn>
+        <endLine>28</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>28</line>
+        <index>1700</index>
+        <endIndex>1700</endIndex>
+        <startLine>28</startLine>
+        <startColumn>92</startColumn>
+        <endLine>28</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>29</line>
+        <index>1739</index>
+        <endIndex>1739</endIndex>
+        <startLine>29</startLine>
+        <startColumn>36</startColumn>
+        <endLine>29</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>29</line>
+        <index>1739</index>
+        <endIndex>1739</endIndex>
+        <startLine>29</startLine>
+        <startColumn>36</startColumn>
+        <endLine>29</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>29</line>
+        <index>1748</index>
+        <endIndex>1748</endIndex>
+        <startLine>29</startLine>
+        <startColumn>45</startColumn>
+        <endLine>29</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>29</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>29</line>
+        <index>1751</index>
+        <endIndex>1751</endIndex>
+        <startLine>29</startLine>
+        <startColumn>48</startColumn>
+        <endLine>29</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>29</line>
+        <index>1758</index>
+        <endIndex>1758</endIndex>
+        <startLine>29</startLine>
+        <startColumn>55</startColumn>
+        <endLine>29</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>29</line>
+        <index>1760</index>
+        <endIndex>1760</endIndex>
+        <startLine>29</startLine>
+        <startColumn>57</startColumn>
+        <endLine>29</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>29</line>
+        <index>1767</index>
+        <endIndex>1767</endIndex>
+        <startLine>29</startLine>
+        <startColumn>64</startColumn>
+        <endLine>29</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>29</line>
+        <index>1769</index>
+        <endIndex>1769</endIndex>
+        <startLine>29</startLine>
+        <startColumn>66</startColumn>
+        <endLine>29</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>29</line>
+        <index>1776</index>
+        <endIndex>1776</endIndex>
+        <startLine>29</startLine>
+        <startColumn>73</startColumn>
+        <endLine>29</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>29</line>
+        <index>1783</index>
+        <endIndex>1783</endIndex>
+        <startLine>29</startLine>
+        <startColumn>80</startColumn>
+        <endLine>29</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>29</line>
+        <index>1790</index>
+        <endIndex>1790</endIndex>
+        <startLine>29</startLine>
+        <startColumn>87</startColumn>
+        <endLine>29</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>29</line>
+        <index>1796</index>
+        <endIndex>1796</endIndex>
+        <startLine>29</startLine>
+        <startColumn>93</startColumn>
+        <endLine>29</endLine>
+        <endColumn>93</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>30</line>
+        <index>1835</index>
+        <endIndex>1835</endIndex>
+        <startLine>30</startLine>
+        <startColumn>36</startColumn>
+        <endLine>30</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>30</line>
+        <index>1835</index>
+        <endIndex>1835</endIndex>
+        <startLine>30</startLine>
+        <startColumn>36</startColumn>
+        <endLine>30</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>30</line>
+        <index>1844</index>
+        <endIndex>1844</endIndex>
+        <startLine>30</startLine>
+        <startColumn>45</startColumn>
+        <endLine>30</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>30</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>30</line>
+        <index>1847</index>
+        <endIndex>1847</endIndex>
+        <startLine>30</startLine>
+        <startColumn>48</startColumn>
+        <endLine>30</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>30</line>
+        <index>1854</index>
+        <endIndex>1854</endIndex>
+        <startLine>30</startLine>
+        <startColumn>55</startColumn>
+        <endLine>30</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>30</line>
+        <index>1856</index>
+        <endIndex>1856</endIndex>
+        <startLine>30</startLine>
+        <startColumn>57</startColumn>
+        <endLine>30</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>30</line>
+        <index>1863</index>
+        <endIndex>1863</endIndex>
+        <startLine>30</startLine>
+        <startColumn>64</startColumn>
+        <endLine>30</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>30</line>
+        <index>1865</index>
+        <endIndex>1865</endIndex>
+        <startLine>30</startLine>
+        <startColumn>66</startColumn>
+        <endLine>30</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>30</line>
+        <index>1872</index>
+        <endIndex>1872</endIndex>
+        <startLine>30</startLine>
+        <startColumn>73</startColumn>
+        <endLine>30</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>30</line>
+        <index>1879</index>
+        <endIndex>1879</endIndex>
+        <startLine>30</startLine>
+        <startColumn>80</startColumn>
+        <endLine>30</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>30</line>
+        <index>1886</index>
+        <endIndex>1886</endIndex>
+        <startLine>30</startLine>
+        <startColumn>87</startColumn>
+        <endLine>30</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>30</line>
+        <index>1891</index>
+        <endIndex>1891</endIndex>
+        <startLine>30</startLine>
+        <startColumn>92</startColumn>
+        <endLine>30</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>31</line>
+        <index>1930</index>
+        <endIndex>1930</endIndex>
+        <startLine>31</startLine>
+        <startColumn>36</startColumn>
+        <endLine>31</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>31</line>
+        <index>1930</index>
+        <endIndex>1930</endIndex>
+        <startLine>31</startLine>
+        <startColumn>36</startColumn>
+        <endLine>31</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>31</line>
+        <index>1939</index>
+        <endIndex>1939</endIndex>
+        <startLine>31</startLine>
+        <startColumn>45</startColumn>
+        <endLine>31</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>31</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>31</line>
+        <index>1942</index>
+        <endIndex>1942</endIndex>
+        <startLine>31</startLine>
+        <startColumn>48</startColumn>
+        <endLine>31</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>31</line>
+        <index>1949</index>
+        <endIndex>1949</endIndex>
+        <startLine>31</startLine>
+        <startColumn>55</startColumn>
+        <endLine>31</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>31</line>
+        <index>1951</index>
+        <endIndex>1951</endIndex>
+        <startLine>31</startLine>
+        <startColumn>57</startColumn>
+        <endLine>31</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>31</line>
+        <index>1958</index>
+        <endIndex>1958</endIndex>
+        <startLine>31</startLine>
+        <startColumn>64</startColumn>
+        <endLine>31</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>31</line>
+        <index>1960</index>
+        <endIndex>1960</endIndex>
+        <startLine>31</startLine>
+        <startColumn>66</startColumn>
+        <endLine>31</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>31</line>
+        <index>1967</index>
+        <endIndex>1967</endIndex>
+        <startLine>31</startLine>
+        <startColumn>73</startColumn>
+        <endLine>31</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>31</line>
+        <index>1973</index>
+        <endIndex>1973</endIndex>
+        <startLine>31</startLine>
+        <startColumn>79</startColumn>
+        <endLine>31</endLine>
+        <endColumn>79</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>31</line>
+        <index>1980</index>
+        <endIndex>1980</endIndex>
+        <startLine>31</startLine>
+        <startColumn>86</startColumn>
+        <endLine>31</endLine>
+        <endColumn>86</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>31</line>
+        <index>1985</index>
+        <endIndex>1985</endIndex>
+        <startLine>31</startLine>
+        <startColumn>91</startColumn>
+        <endLine>31</endLine>
+        <endColumn>91</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>32</line>
+        <index>2024</index>
+        <endIndex>2024</endIndex>
+        <startLine>32</startLine>
+        <startColumn>36</startColumn>
+        <endLine>32</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>32</line>
+        <index>2024</index>
+        <endIndex>2024</endIndex>
+        <startLine>32</startLine>
+        <startColumn>36</startColumn>
+        <endLine>32</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>32</line>
+        <index>2033</index>
+        <endIndex>2033</endIndex>
+        <startLine>32</startLine>
+        <startColumn>45</startColumn>
+        <endLine>32</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>32</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>32</line>
+        <index>2036</index>
+        <endIndex>2036</endIndex>
+        <startLine>32</startLine>
+        <startColumn>48</startColumn>
+        <endLine>32</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>32</line>
+        <index>2043</index>
+        <endIndex>2043</endIndex>
+        <startLine>32</startLine>
+        <startColumn>55</startColumn>
+        <endLine>32</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>32</line>
+        <index>2045</index>
+        <endIndex>2045</endIndex>
+        <startLine>32</startLine>
+        <startColumn>57</startColumn>
+        <endLine>32</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>32</line>
+        <index>2052</index>
+        <endIndex>2052</endIndex>
+        <startLine>32</startLine>
+        <startColumn>64</startColumn>
+        <endLine>32</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>32</line>
+        <index>2054</index>
+        <endIndex>2054</endIndex>
+        <startLine>32</startLine>
+        <startColumn>66</startColumn>
+        <endLine>32</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>32</line>
+        <index>2061</index>
+        <endIndex>2061</endIndex>
+        <startLine>32</startLine>
+        <startColumn>73</startColumn>
+        <endLine>32</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>32</line>
+        <index>2068</index>
+        <endIndex>2068</endIndex>
+        <startLine>32</startLine>
+        <startColumn>80</startColumn>
+        <endLine>32</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>32</line>
+        <index>2075</index>
+        <endIndex>2075</endIndex>
+        <startLine>32</startLine>
+        <startColumn>87</startColumn>
+        <endLine>32</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>32</line>
+        <index>2081</index>
+        <endIndex>2081</endIndex>
+        <startLine>32</startLine>
+        <startColumn>93</startColumn>
+        <endLine>32</endLine>
+        <endColumn>93</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>33</line>
+        <index>2120</index>
+        <endIndex>2120</endIndex>
+        <startLine>33</startLine>
+        <startColumn>36</startColumn>
+        <endLine>33</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>33</line>
+        <index>2120</index>
+        <endIndex>2120</endIndex>
+        <startLine>33</startLine>
+        <startColumn>36</startColumn>
+        <endLine>33</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>33</line>
+        <index>2129</index>
+        <endIndex>2129</endIndex>
+        <startLine>33</startLine>
+        <startColumn>45</startColumn>
+        <endLine>33</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>33</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>33</line>
+        <index>2132</index>
+        <endIndex>2132</endIndex>
+        <startLine>33</startLine>
+        <startColumn>48</startColumn>
+        <endLine>33</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>33</line>
+        <index>2139</index>
+        <endIndex>2139</endIndex>
+        <startLine>33</startLine>
+        <startColumn>55</startColumn>
+        <endLine>33</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>33</line>
+        <index>2141</index>
+        <endIndex>2141</endIndex>
+        <startLine>33</startLine>
+        <startColumn>57</startColumn>
+        <endLine>33</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>33</line>
+        <index>2148</index>
+        <endIndex>2148</endIndex>
+        <startLine>33</startLine>
+        <startColumn>64</startColumn>
+        <endLine>33</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>33</line>
+        <index>2150</index>
+        <endIndex>2150</endIndex>
+        <startLine>33</startLine>
+        <startColumn>66</startColumn>
+        <endLine>33</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>33</line>
+        <index>2157</index>
+        <endIndex>2157</endIndex>
+        <startLine>33</startLine>
+        <startColumn>73</startColumn>
+        <endLine>33</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>33</line>
+        <index>2164</index>
+        <endIndex>2164</endIndex>
+        <startLine>33</startLine>
+        <startColumn>80</startColumn>
+        <endLine>33</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>33</line>
+        <index>2171</index>
+        <endIndex>2171</endIndex>
+        <startLine>33</startLine>
+        <startColumn>87</startColumn>
+        <endLine>33</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>33</line>
+        <index>2176</index>
+        <endIndex>2176</endIndex>
+        <startLine>33</startLine>
+        <startColumn>92</startColumn>
+        <endLine>33</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>34</line>
+        <index>2215</index>
+        <endIndex>2215</endIndex>
+        <startLine>34</startLine>
+        <startColumn>36</startColumn>
+        <endLine>34</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>34</line>
+        <index>2215</index>
+        <endIndex>2215</endIndex>
+        <startLine>34</startLine>
+        <startColumn>36</startColumn>
+        <endLine>34</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>34</line>
+        <index>2224</index>
+        <endIndex>2224</endIndex>
+        <startLine>34</startLine>
+        <startColumn>45</startColumn>
+        <endLine>34</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>34</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>34</line>
+        <index>2227</index>
+        <endIndex>2227</endIndex>
+        <startLine>34</startLine>
+        <startColumn>48</startColumn>
+        <endLine>34</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>34</line>
+        <index>2234</index>
+        <endIndex>2234</endIndex>
+        <startLine>34</startLine>
+        <startColumn>55</startColumn>
+        <endLine>34</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>34</line>
+        <index>2236</index>
+        <endIndex>2236</endIndex>
+        <startLine>34</startLine>
+        <startColumn>57</startColumn>
+        <endLine>34</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>34</line>
+        <index>2243</index>
+        <endIndex>2243</endIndex>
+        <startLine>34</startLine>
+        <startColumn>64</startColumn>
+        <endLine>34</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>34</line>
+        <index>2246</index>
+        <endIndex>2246</endIndex>
+        <startLine>34</startLine>
+        <startColumn>67</startColumn>
+        <endLine>34</endLine>
+        <endColumn>67</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>34</line>
+        <index>2253</index>
+        <endIndex>2253</endIndex>
+        <startLine>34</startLine>
+        <startColumn>74</startColumn>
+        <endLine>34</endLine>
+        <endColumn>74</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>34</line>
+        <index>2260</index>
+        <endIndex>2260</endIndex>
+        <startLine>34</startLine>
+        <startColumn>81</startColumn>
+        <endLine>34</endLine>
+        <endColumn>81</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>34</line>
+        <index>2267</index>
+        <endIndex>2267</endIndex>
+        <startLine>34</startLine>
+        <startColumn>88</startColumn>
+        <endLine>34</endLine>
+        <endColumn>88</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>34</line>
+        <index>2272</index>
+        <endIndex>2272</endIndex>
+        <startLine>34</startLine>
+        <startColumn>93</startColumn>
+        <endLine>34</endLine>
+        <endColumn>93</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>35</line>
+        <index>2311</index>
+        <endIndex>2311</endIndex>
+        <startLine>35</startLine>
+        <startColumn>36</startColumn>
+        <endLine>35</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>35</line>
+        <index>2311</index>
+        <endIndex>2311</endIndex>
+        <startLine>35</startLine>
+        <startColumn>36</startColumn>
+        <endLine>35</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>35</line>
+        <index>2320</index>
+        <endIndex>2320</endIndex>
+        <startLine>35</startLine>
+        <startColumn>45</startColumn>
+        <endLine>35</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>35</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>35</line>
+        <index>2323</index>
+        <endIndex>2323</endIndex>
+        <startLine>35</startLine>
+        <startColumn>48</startColumn>
+        <endLine>35</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>35</line>
+        <index>2330</index>
+        <endIndex>2330</endIndex>
+        <startLine>35</startLine>
+        <startColumn>55</startColumn>
+        <endLine>35</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>35</line>
+        <index>2332</index>
+        <endIndex>2332</endIndex>
+        <startLine>35</startLine>
+        <startColumn>57</startColumn>
+        <endLine>35</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>35</line>
+        <index>2339</index>
+        <endIndex>2339</endIndex>
+        <startLine>35</startLine>
+        <startColumn>64</startColumn>
+        <endLine>35</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>35</line>
+        <index>2341</index>
+        <endIndex>2341</endIndex>
+        <startLine>35</startLine>
+        <startColumn>66</startColumn>
+        <endLine>35</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>35</line>
+        <index>2348</index>
+        <endIndex>2348</endIndex>
+        <startLine>35</startLine>
+        <startColumn>73</startColumn>
+        <endLine>35</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>35</line>
+        <index>2355</index>
+        <endIndex>2355</endIndex>
+        <startLine>35</startLine>
+        <startColumn>80</startColumn>
+        <endLine>35</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>35</line>
+        <index>2362</index>
+        <endIndex>2362</endIndex>
+        <startLine>35</startLine>
+        <startColumn>87</startColumn>
+        <endLine>35</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>35</line>
+        <index>2367</index>
+        <endIndex>2367</endIndex>
+        <startLine>35</startLine>
+        <startColumn>92</startColumn>
+        <endLine>35</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>36</line>
+        <index>2406</index>
+        <endIndex>2406</endIndex>
+        <startLine>36</startLine>
+        <startColumn>36</startColumn>
+        <endLine>36</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>36</line>
+        <index>2406</index>
+        <endIndex>2406</endIndex>
+        <startLine>36</startLine>
+        <startColumn>36</startColumn>
+        <endLine>36</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>36</line>
+        <index>2415</index>
+        <endIndex>2415</endIndex>
+        <startLine>36</startLine>
+        <startColumn>45</startColumn>
+        <endLine>36</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>36</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>36</line>
+        <index>2418</index>
+        <endIndex>2418</endIndex>
+        <startLine>36</startLine>
+        <startColumn>48</startColumn>
+        <endLine>36</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>36</line>
+        <index>2425</index>
+        <endIndex>2425</endIndex>
+        <startLine>36</startLine>
+        <startColumn>55</startColumn>
+        <endLine>36</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>36</line>
+        <index>2427</index>
+        <endIndex>2427</endIndex>
+        <startLine>36</startLine>
+        <startColumn>57</startColumn>
+        <endLine>36</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>36</line>
+        <index>2434</index>
+        <endIndex>2434</endIndex>
+        <startLine>36</startLine>
+        <startColumn>64</startColumn>
+        <endLine>36</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>36</line>
+        <index>2436</index>
+        <endIndex>2436</endIndex>
+        <startLine>36</startLine>
+        <startColumn>66</startColumn>
+        <endLine>36</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>36</line>
+        <index>2443</index>
+        <endIndex>2443</endIndex>
+        <startLine>36</startLine>
+        <startColumn>73</startColumn>
+        <endLine>36</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>36</line>
+        <index>2450</index>
+        <endIndex>2450</endIndex>
+        <startLine>36</startLine>
+        <startColumn>80</startColumn>
+        <endLine>36</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>36</line>
+        <index>2457</index>
+        <endIndex>2457</endIndex>
+        <startLine>36</startLine>
+        <startColumn>87</startColumn>
+        <endLine>36</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>36</line>
+        <index>2462</index>
+        <endIndex>2462</endIndex>
+        <startLine>36</startLine>
+        <startColumn>92</startColumn>
+        <endLine>36</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>37</line>
+        <index>2501</index>
+        <endIndex>2501</endIndex>
+        <startLine>37</startLine>
+        <startColumn>36</startColumn>
+        <endLine>37</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>37</line>
+        <index>2501</index>
+        <endIndex>2501</endIndex>
+        <startLine>37</startLine>
+        <startColumn>36</startColumn>
+        <endLine>37</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>37</line>
+        <index>2510</index>
+        <endIndex>2510</endIndex>
+        <startLine>37</startLine>
+        <startColumn>45</startColumn>
+        <endLine>37</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>37</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>37</line>
+        <index>2513</index>
+        <endIndex>2513</endIndex>
+        <startLine>37</startLine>
+        <startColumn>48</startColumn>
+        <endLine>37</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>37</line>
+        <index>2520</index>
+        <endIndex>2520</endIndex>
+        <startLine>37</startLine>
+        <startColumn>55</startColumn>
+        <endLine>37</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>37</line>
+        <index>2522</index>
+        <endIndex>2522</endIndex>
+        <startLine>37</startLine>
+        <startColumn>57</startColumn>
+        <endLine>37</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>37</line>
+        <index>2529</index>
+        <endIndex>2529</endIndex>
+        <startLine>37</startLine>
+        <startColumn>64</startColumn>
+        <endLine>37</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>37</line>
+        <index>2532</index>
+        <endIndex>2532</endIndex>
+        <startLine>37</startLine>
+        <startColumn>67</startColumn>
+        <endLine>37</endLine>
+        <endColumn>67</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>37</line>
+        <index>2539</index>
+        <endIndex>2539</endIndex>
+        <startLine>37</startLine>
+        <startColumn>74</startColumn>
+        <endLine>37</endLine>
+        <endColumn>74</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>37</line>
+        <index>2546</index>
+        <endIndex>2546</endIndex>
+        <startLine>37</startLine>
+        <startColumn>81</startColumn>
+        <endLine>37</endLine>
+        <endColumn>81</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>37</line>
+        <index>2553</index>
+        <endIndex>2553</endIndex>
+        <startLine>37</startLine>
+        <startColumn>88</startColumn>
+        <endLine>37</endLine>
+        <endColumn>88</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>37</line>
+        <index>2558</index>
+        <endIndex>2558</endIndex>
+        <startLine>37</startLine>
+        <startColumn>93</startColumn>
+        <endLine>37</endLine>
+        <endColumn>93</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>38</line>
+        <index>2597</index>
+        <endIndex>2597</endIndex>
+        <startLine>38</startLine>
+        <startColumn>36</startColumn>
+        <endLine>38</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>38</line>
+        <index>2597</index>
+        <endIndex>2597</endIndex>
+        <startLine>38</startLine>
+        <startColumn>36</startColumn>
+        <endLine>38</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>38</line>
+        <index>2606</index>
+        <endIndex>2606</endIndex>
+        <startLine>38</startLine>
+        <startColumn>45</startColumn>
+        <endLine>38</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>38</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>38</line>
+        <index>2609</index>
+        <endIndex>2609</endIndex>
+        <startLine>38</startLine>
+        <startColumn>48</startColumn>
+        <endLine>38</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>38</line>
+        <index>2616</index>
+        <endIndex>2616</endIndex>
+        <startLine>38</startLine>
+        <startColumn>55</startColumn>
+        <endLine>38</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>38</line>
+        <index>2618</index>
+        <endIndex>2618</endIndex>
+        <startLine>38</startLine>
+        <startColumn>57</startColumn>
+        <endLine>38</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>38</line>
+        <index>2625</index>
+        <endIndex>2625</endIndex>
+        <startLine>38</startLine>
+        <startColumn>64</startColumn>
+        <endLine>38</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>38</line>
+        <index>2627</index>
+        <endIndex>2627</endIndex>
+        <startLine>38</startLine>
+        <startColumn>66</startColumn>
+        <endLine>38</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>38</line>
+        <index>2634</index>
+        <endIndex>2634</endIndex>
+        <startLine>38</startLine>
+        <startColumn>73</startColumn>
+        <endLine>38</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>38</line>
+        <index>2641</index>
+        <endIndex>2641</endIndex>
+        <startLine>38</startLine>
+        <startColumn>80</startColumn>
+        <endLine>38</endLine>
+        <endColumn>80</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>38</line>
+        <index>2648</index>
+        <endIndex>2648</endIndex>
+        <startLine>38</startLine>
+        <startColumn>87</startColumn>
+        <endLine>38</endLine>
+        <endColumn>87</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>38</line>
+        <index>2653</index>
+        <endIndex>2653</endIndex>
+        <startLine>38</startLine>
+        <startColumn>92</startColumn>
+        <endLine>38</endLine>
+        <endColumn>92</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>39</line>
+        <index>2692</index>
+        <endIndex>2692</endIndex>
+        <startLine>39</startLine>
+        <startColumn>36</startColumn>
+        <endLine>39</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>39</line>
+        <index>2692</index>
+        <endIndex>2692</endIndex>
+        <startLine>39</startLine>
+        <startColumn>36</startColumn>
+        <endLine>39</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>39</line>
+        <index>2701</index>
+        <endIndex>2701</endIndex>
+        <startLine>39</startLine>
+        <startColumn>45</startColumn>
+        <endLine>39</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>39</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>39</line>
+        <index>2704</index>
+        <endIndex>2704</endIndex>
+        <startLine>39</startLine>
+        <startColumn>48</startColumn>
+        <endLine>39</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>39</line>
+        <index>2711</index>
+        <endIndex>2711</endIndex>
+        <startLine>39</startLine>
+        <startColumn>55</startColumn>
+        <endLine>39</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>39</line>
+        <index>2713</index>
+        <endIndex>2713</endIndex>
+        <startLine>39</startLine>
+        <startColumn>57</startColumn>
+        <endLine>39</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>39</line>
+        <index>2720</index>
+        <endIndex>2720</endIndex>
+        <startLine>39</startLine>
+        <startColumn>64</startColumn>
+        <endLine>39</endLine>
+        <endColumn>64</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>39</line>
+        <index>2722</index>
+        <endIndex>2722</endIndex>
+        <startLine>39</startLine>
+        <startColumn>66</startColumn>
+        <endLine>39</endLine>
+        <endColumn>66</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>39</line>
+        <index>2729</index>
+        <endIndex>2729</endIndex>
+        <startLine>39</startLine>
+        <startColumn>73</startColumn>
+        <endLine>39</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CommasMustBeSpacedCorrectly" ruleCheckId="SA1001">
+        <context>Invalid spacing around the comma.</context>
+        <line>39</line>
+        <index>2735</index>
+        <endIndex>2735</endIndex>
+        <startLine>39</startLine>
+        <startColumn>79</startColumn>
+        <endLine>39</endLine>
+        <endColumn>79</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SymbolsMustBeSpacedCorrectly" ruleCheckId="SA1003">
+        <context>The spacing around the symbol '=' is invalid.</context>
+        <line>39</line>
+        <index>2742</index>
+        <endIndex>2742</endIndex>
+        <startLine>39</startLine>
+        <startColumn>86</startColumn>
+        <endLine>39</endLine>
+        <endColumn>86</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>39</line>
+        <index>2747</index>
+        <endIndex>2747</endIndex>
+        <startLine>39</startLine>
+        <startColumn>91</startColumn>
+        <endLine>39</endLine>
+        <endColumn>91</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <project key="-1346184067">
+    <configuration>
+    </configuration>
+  </project>
+</stylecopresultscache>
