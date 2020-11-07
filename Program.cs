@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 
 namespace ProductReviewManagement
 {
@@ -46,12 +47,18 @@ namespace ProductReviewManagement
                 new ProductReview(){ProducID=25,UserID=3,Rating=3,Review="Bad",isLike=true}
             };
 
+            //foreach (var list in productReviewList)
+            //{
+            //    Console.WriteLine("ProductID:- " + list.ProducID + " " + "UserID:- " + list.UserID
+            //             + " " + "Rating:- " + list.Rating + " " + "Review:- " + list.Review + " " + "isLike:- " + list.isLike);
+            //}
+
             ////Calling Manager class to retreive top 3 Data:
-            Manager manager = new Manager();
+            //Manager manager = new Manager();
             //manager.TopRecords(productReviewList);
 
             ////Product ID: 1/4/9 And rating >3:
-            ////manager.SelectedRecords(productReviewList);
+            //manager.SelectedRecords(productReviewList);
 
             ////Retrieve Count of ProductID:
             //manager.RetrieveCount(productReviewList);
@@ -60,7 +67,15 @@ namespace ProductReviewManagement
             //manager.RetrieveProductIDandReview(productReviewList);
 
             ////Skip first 5 records:
-            manager.SkipFirstFiveRecords(productReviewList);
+            //manager.SkipFirstFiveRecords(productReviewList);
+
+            ////UC8: DataTable
+            DataTables dataTables = new DataTables();
+            //dataTables.AddDataToTable();
+
+            ////UC9: For IsLike= true:
+            dataTables.GetDataForIsLikeTrue();
+
         }
     }
 }
