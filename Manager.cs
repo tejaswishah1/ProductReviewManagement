@@ -155,18 +155,35 @@ namespace ProductReviewManagement
         /// <param name="listProductReview"></param>
         public void AverageRatingOfEachProductId(List<ProductReview> listProductReview)
         {
+            ////LINQ Query
             var data = from productReviews in listProductReview
                        group productReviews by productReviews.ProducID into avg
                        select new
                        {
                            ProductID = avg.Key,
-                           AverageRating = avg.Average(x => x.Rating)
+                           AverageRating = avg.Average(x => x.Rating) ////Lambda function
                        };
             Console.WriteLine("\n");
             Console.WriteLine("\nProductID AverageRating");
             foreach (var list in data)
             {
-                Console.WriteLine(list.ProductID + " ----------- " + list.AverageRating);
+                Console.WriteLine(list.ProductID + "   " + list.AverageRating);
+            }
+        }
+
+        /// <summary>
+        /// Retrive data with review = Nice
+        /// </summary>
+        /// <param name="listProductReview"></param>
+        public void RecordWithReviewNice(List<ProductReview> listProductReview)
+        {
+            var data = from productReviews in listProductReview
+                       where (productReviews.Review == "Nice")
+                       select productReviews;
+            Console.WriteLine("\n");
+            foreach (var list in data)
+            {
+                Console.WriteLine("ProductID: " + list.ProducID + " UserID: " + list.UserID + " Rating: " + list.Rating + " Review: " + list.Review + " isLike: " + list.isLike);
             }
         }
 

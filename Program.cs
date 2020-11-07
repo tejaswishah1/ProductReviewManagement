@@ -77,7 +77,10 @@ namespace ProductReviewManagement
             //dataTables.GetDataForIsLikeTrue();
 
             ////UC10 Average rating
-            manager.AverageRatingOfEachProductId(productReviewList);
+            //manager.AverageRatingOfEachProductId(productReviewList);
+
+            ////UC11: Data with rating= Nice
+            manager.RecordWithReviewNice(productReviewList);
 
         }
     }
