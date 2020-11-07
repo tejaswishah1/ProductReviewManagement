@@ -149,5 +149,26 @@ namespace ProductReviewManagement
             }
         }
 
+        /// <summary>
+        /// Average Rating of each Product ID
+        /// </summary>
+        /// <param name="listProductReview"></param>
+        public void AverageRatingOfEachProductId(List<ProductReview> listProductReview)
+        {
+            var data = from productReviews in listProductReview
+                       group productReviews by productReviews.ProducID into avg
+                       select new
+                       {
+                           ProductID = avg.Key,
+                           AverageRating = avg.Average(x => x.Rating)
+                       };
+            Console.WriteLine("\n");
+            Console.WriteLine("\nProductID AverageRating");
+            foreach (var list in data)
+            {
+                Console.WriteLine(list.ProductID + " ----------- " + list.AverageRating);
+            }
+        }
+
     }
 }

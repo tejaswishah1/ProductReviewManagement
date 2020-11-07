@@ -54,7 +54,7 @@ namespace ProductReviewManagement
             //}
 
             ////Calling Manager class to retreive top 3 Data:
-            //Manager manager = new Manager();
+            Manager manager = new Manager();
             //manager.TopRecords(productReviewList);
 
             ////Product ID: 1/4/9 And rating >3:
@@ -74,7 +74,10 @@ namespace ProductReviewManagement
             //dataTables.AddDataToTable();
 
             ////UC9: For IsLike= true:
-            dataTables.GetDataForIsLikeTrue();
+            //dataTables.GetDataForIsLikeTrue();
+
+            ////UC10 Average rating
+            manager.AverageRatingOfEachProductId(productReviewList);
 
         }
     }
