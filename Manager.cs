@@ -187,5 +187,23 @@ namespace ProductReviewManagement
             }
         }
 
+        /// <summary>
+        /// User ID 10 Ascending order
+        /// </summary>
+        /// <param name="listProductReview"></param>
+        public void RetrieveRecordsWithUserId10(List<ProductReview> listProductReview)
+        {
+            var data = from productReviews in listProductReview
+                       where (productReviews.UserID == 10)
+                       orderby productReviews.Rating ascending
+                       select productReviews;
+            Console.WriteLine("\n");
+            foreach (var list in data)
+            {
+                Console.WriteLine("ProductID: " + list.ProducID + " UserID: " + list.UserID + " Rating: " + list.Rating + " Review: " + list.Review + " isLike: " + list.isLike);
+            }
+        }
+
+
     }
 }
