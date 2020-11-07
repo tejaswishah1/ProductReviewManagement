@@ -9,7 +9,7 @@ namespace ProductReviewManagement
 {
     class Manager
     {
-        public readonly DataTable dataTable = new DataTable();
+        //    public readonly DataTable dataTable = new DataTable();
 
         /// <summary>
         /// UC2: Retrieve top 3 Data
@@ -120,6 +120,33 @@ namespace ProductReviewManagement
                 Console.WriteLine(exception.Message);
             }
 
+        }
+
+        /// <summary>
+        /// UC6 Skip first 5 records and display the rest
+        /// </summary>
+        /// <param name="listProductReview"></param>
+        public void SkipFirstFiveRecords(List<ProductReview> listProductReview)
+        {
+            try
+            {
+                ////Skip top 5 data
+                var recordedData = (from productReviews in listProductReview
+                                    select productReviews).Skip(5);
+                Console.WriteLine("\n");
+
+                ////Print remaining data
+                foreach (var list in recordedData)
+                {
+                    Console.WriteLine("ProductID:- " + list.ProducID + " " + "UserID:- " + list.UserID
+                           + " " + "Rating:- " + list.Rating + " " + "Review:- " + list.Review + " " + "isLike:- " + list.isLike);
+                }
+            }
+            ////Catch exception is any
+            catch(Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+            }
         }
 
     }

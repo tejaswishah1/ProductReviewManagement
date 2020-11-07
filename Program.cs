@@ -26,7 +26,7 @@ namespace ProductReviewManagement
                 new ProductReview(){ProducID=5,UserID=1,Rating=2,Review="Nice",isLike=true},
                 new ProductReview(){ProducID=6,UserID=4,Rating=1,Review="Bad",isLike=true},
                 new ProductReview(){ProducID=8,UserID=1,Rating=1,Review="Good",isLike=false},
-                new ProductReview(){ProducID=8,UserID=5,Rating=9,Review="Nice",isLike=true},
+                new ProductReview(){ProducID=8,UserID=5,Rating=8,Review="Nice",isLike=true},
                 new ProductReview(){ProducID=2,UserID=2,Rating=11,Review="Nice",isLike=true},////Rating 11
                 new ProductReview(){ProducID=10,UserID=4,Rating=8,Review="Nice",isLike=true},
                 new ProductReview(){ProducID=11,UserID=5,Rating=3,Review="Nice",isLike=true},
@@ -57,7 +57,10 @@ namespace ProductReviewManagement
             //manager.RetrieveCount(productReviewList);
 
             ////Retrieve Product ID and review only
-            manager.RetrieveProductIDandReview(productReviewList);
+            //manager.RetrieveProductIDandReview(productReviewList);
+
+            ////Skip first 5 records:
+            manager.SkipFirstFiveRecords(productReviewList);
         }
     }
 }
